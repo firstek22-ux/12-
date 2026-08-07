@@ -1,14 +1,180 @@
 <!DOCTYPE html>
 <html lang="zh-Hant">
-
 <head>
-
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>餛飩分裂者 | Official Network</title>
+<title>ISECR ESD Archive</title>
 
-<link rel="stylesheet" href="style.css">
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    margin:0;
+    background:#080808;
+    color:#00ff88;
+    font-family:
+    "Courier New",
+    "Microsoft JhengHei",
+    monospace;
+}
+
+
+/* 頂部 */
+
+header{
+    border-bottom:1px solid #00ff88;
+    padding:20px;
+    background:#050505;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:bold;
+}
+
+.subtitle{
+    color:#aaa;
+    margin-top:8px;
+}
+
+
+/* 主體 */
+
+.container{
+    display:flex;
+    min-height:90vh;
+}
+
+
+/* 側邊欄 */
+
+.sidebar{
+    width:230px;
+    border-right:1px solid #00ff88;
+    padding:20px;
+}
+
+.sidebar button{
+
+    width:100%;
+    margin-bottom:12px;
+
+    background:#111;
+    color:#00ff88;
+
+    border:1px solid #00ff88;
+
+    padding:12px;
+
+    cursor:pointer;
+
+}
+
+
+.sidebar button:hover{
+
+    background:#00ff88;
+    color:#000;
+
+}
+
+
+
+/* 內容 */
+
+.content{
+
+    flex:1;
+    padding:25px;
+
+}
+
+
+.panel{
+
+    border:1px solid #00ff88;
+    padding:20px;
+    margin-bottom:20px;
+
+    background:#0d0d0d;
+
+}
+
+
+.title{
+
+    font-size:22px;
+    margin-bottom:15px;
+
+}
+
+
+/* 狀態 */
+
+.status{
+
+    color:#00ff88;
+
+}
+
+
+.warning{
+
+    color:#ff3333;
+
+}
+
+
+/* 檔案 */
+
+.file{
+
+    border-left:4px solid #00ff88;
+    padding-left:15px;
+    margin-top:15px;
+
+}
+
+
+
+footer{
+
+    border-top:1px solid #00ff88;
+
+    padding:15px;
+
+    text-align:center;
+
+    color:#777;
+
+}
+
+
+
+@media(max-width:700px){
+
+.container{
+
+    display:block;
+
+}
+
+.sidebar{
+
+    width:100%;
+    border-right:none;
+    border-bottom:1px solid #00ff88;
+
+}
+
+}
+
+</style>
+
 
 </head>
 
@@ -18,96 +184,257 @@
 
 <header>
 
-<h1>
-WONTON SPLINTER
-</h1>
+<div class="logo">
 
-<p>
-餛飩分裂者官方網路
-</p>
+ISECR
+
+</div>
+
+
+<div class="subtitle">
+
+International Supernatural Emergency Control & Research
+
+<br>
+
+Earth Support Division Archive Terminal
+
+</div>
 
 </header>
 
 
 
+<div class="container">
 
 
-  <nav>
+<div class="sidebar">
 
-<a href="#">首頁</a>
-<a href="#">組織介紹</a>
-<a href="#">公開文件</a>
-<a href="#">行動紀錄</a>
-<a href="#">聯絡</a>
-
-  </nav>
-
-
-
-<section class="document">
-
-
-<h2>
-關於餛飩分裂者
-</h2>
-
-
-<p>
-餛飩分裂者是一個致力於研究、
-探索以及處理特殊現象的組織。
-</p>
-
-
-</section>
-
-
-
-<section class="document">
-
-<h2>
-最新公告
-</h2>
-
-
-<p>
-[WS-公告-001]
-
-新的研究區域已開放。
-
-</p>
-
-
-</section>
-
-
-  <section>
-
-<h2>
-公開文件庫
-</h2>
-
-
-<div>
-
-<h3>
-WS-DOC-001
-</h3>
-
-<p>
-文件名稱：餛飩分裂者成立宣言
-</p>
 
 <button>
-查看文件
+首頁
 </button>
+
+
+<button>
+異常檔案
+</button>
+
+
+<button>
+任務紀錄
+</button>
+
+
+<button>
+人員資料
+</button>
+
+
+<button>
+設施資料
+</button>
+
+
+<button>
+技術文件
+</button>
+
 
 </div>
 
 
-  </section>
+
+
+<div class="content">
+
+
+
+<div class="panel">
+
+
+<div class="title">
+
+SYSTEM STATUS
+
+</div>
+
+
+<p class="status">
+
+● DATABASE ONLINE
+
+</p>
+
+
+<p>
+
+ACCESS LEVEL:
+ESD PUBLIC ARCHIVE
+
+</p>
+
+
+<p>
+
+LOCATION:
+EARTH SUPPORT DIVISION
+
+</p>
+
+
+</div>
+
+
+
+
+<div class="panel">
+
+
+<div class="title">
+
+公告 / NOTICE
+
+</div>
+
+
+<p class="warning">
+
+⚠ 未授權人員禁止修改資料庫內容
+
+</p>
+
+
+<p>
+
+本資料庫收錄ISECR地球支援分部公開級文件。
+
+部分資料因安全原因已被封鎖。
+
+</p>
+
+
+</div>
+
+
+
+
+
+<div class="panel">
+
+
+<div class="title">
+
+最新文件
+
+</div>
+
+
+
+<div class="file">
+
+
+<h3>
+
+ISECR-001 「紅日殘響」
+
+</h3>
+
+
+<p>
+
+分類：跨世界異常現象
+
+</p>
+
+
+<p>
+
+狀態：持續監控
+
+</p>
+
+
+</div>
+
+
+
+
+<div class="file">
+
+
+<h3>
+
+ISECR-002 「世界樹殘片」
+
+</h3>
+
+
+<p>
+
+分類：超自然物質
+
+</p>
+
+
+<p>
+
+狀態：研究中
+
+</p>
+
+
+</div>
+
+
+
+
+<div class="file">
+
+
+<h3>
+
+FAC-ESD-01 地球支援總部
+
+</h3>
+
+
+<p>
+
+分類：ISECR設施
+
+</p>
+
+
+<p>
+
+狀態：運作中
+
+</p>
+
+
+</div>
+
+
+</div>
+
+
+
+
+</div>
+
+
+</div>
+
+
+
+<footer>
+
+ISECR Earth Support Division © Archive System
+
+</footer>
 
 
 
 </body>
-
 </html>
