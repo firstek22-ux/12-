@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>異常項目檔案 - ISECR 地球支援分部</title>
+
+<style>
+
+*{
+box-sizing:border-box;
+}
+
+body{
+
+margin:0;
+
+background:#121416;
+
+color:#ddd;
+
+font-family:
+"Microsoft JhengHei",
+"PingFang TC",
+sans-serif;
+
+}
+
+
+/* 頂部 */
+
+.header{
+
+height:90px;
+
+background:#1b1e22;
+
+border-bottom:3px solid #8b0000;
+
+padding:20px 30px;
+
+}
+
+.header h1{
+
+margin:0;
+
+font-size:28px;
+
+color:white;
+
+}
+
+.header p{
+
+margin:5px 0;
+
+color:#aaa;
+
+}
+
+
+/* 主框架 */
+
+.layout{
+
+display:flex;
+
+min-height:calc(100vh - 90px);
+
+}
+
+
+/* 導航 */
+
+.menu{
+
+width:240px;
+
+background:#181a1d;
+
+border-right:1px solid #333;
+
+padding:20px;
+
+}
+
+.menu h3{
+
+color:#aaa;
+
+font-size:14px;
+
+}
+
+.menu button{
+
+width:100%;
+
+background:#222;
+
+color:#ddd;
+
+border:1px solid #444;
+
+padding:12px;
+
+margin-bottom:10px;
+
+text-align:left;
+
+cursor:pointer;
+
+}
+
+.menu button:hover{
+
+background:#333;
+
+border-color:#8b0000;
+
+}
+
+
+/* 內容 */
+
+.main{
+
+flex:1;
+
+padding:30px;
+
+}
+
+.card{
+
+background:#1b1e22;
+
+border:1px solid #333;
+
+padding:25px;
+
+margin-bottom:20px;
+
+box-shadow:0 2px 5px #000;
+
+}
+
+.card h2{
+
+margin-top:0;
+
+color:white;
+
+border-bottom:1px solid #444;
+
+padding-bottom:10px;
+
+}
+
+
+/* 文件 */
+
+.document{
+
+background:#161719;
+
+border:1px solid #444;
+
+padding:18px;
+
+margin-top:15px;
+
+}
+
+.document h3{
+
+color:#ddd;
+
+margin-top:10px;
+
+}
+
+.document p{
+
+color:#aaa;
+
+}
+
+.tag{
+
+display:inline-block;
+
+background:#8b0000;
+
+color:white;
+
+padding:3px 8px;
+
+font-size:12px;
+
+}
+
+.status{
+
+color:#ff5555;
+
+}
+
+
+/* 搜尋提示 */
+
+.notice{
+
+background:#222;
+
+border-left:4px solid #8b0000;
+
+padding:15px;
+
+margin-bottom:20px;
+
+color:#aaa;
+
+}
+
+
+/* 頁尾 */
+
+footer{
+
+padding:15px;
+
+text-align:center;
+
+color:#666;
+
+font-size:13px;
+
+}
+
+
+/* 手機 */
+
+@media(max-width:700px){
+
+.layout{
+
+display:block;
+
+}
+
+.menu{
+
+width:100%;
+
+}
+
+.main{
+
+padding:15px;
+
+}
+
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<div class="header">
+
+<h1>
+ISECR 地球支援分部
+</h1>
+
+<p>
+Earth Support Division · 異常項目檔案
+</p>
+
+</div>
+
+
+<div class="layout">
+
+
+<div class="menu">
+
+<h3>
+資料分類
+</h3>
+
+<button onclick="location.href='index.html'">
+首頁
+</button>
+
+<button onclick="location.href='1.html'">
+異常項目檔案
+</button>
+
+<button onclick="location.href='2.html'">
+任務報告
+</button>
+
+<button onclick="location.href='3.html'">
+設施資料
+</button>
+
+<button onclick="location.href='4.html'">
+人員資料
+</button>
+
+<button onclick="location.href='5.html'">
+研究文件
+</button>
+
+
+<h3>
+系統
+</h3>
+
+<button onclick="location.href='6.html'">
+登入驗證
+</button>
+
+<button onclick="location.href='7.html'">
+權限管理
+</button>
+
+</div>
+
+
+<div class="main">
+
+
+<div class="card">
+
+<h2>
+異常項目檔案
+</h2>
+
+<div class="notice">
+
+本區域收錄 ISECR 地球支援分部目前允許
+ESD-公開 等級存取之異常項目資料。
+
+部分檔案因安全協議限制無法顯示。
+
+</div>
+
+
+<div class="document">
+
+<span class="tag">
+ISECR-001
+</span>
+
+<h3>
+「紅日殘響」
+</h3>
+
+<p>
+分類：現實穩定異常
+</p>
+
+<p>
+狀態：
+<span class="status">
+持續監控
+</span>
+</p>
+
+<p>
+簡介：與「紅日」現象相關之現實穩定性異常。
+目前尚未確認其完整成因及作用機制。
+</p>
+
+</div>
+
+
+<div class="document">
+
+<span class="tag">
+ISECR-002
+</span>
+
+<h3>
+「世界樹殘片」
+</h3>
+
+<p>
+分類：未知超自然物質
+</p>
+
+<p>
+狀態：
+<span class="status">
+研究中
+</span>
+</p>
+
+<p>
+簡介：具有高度異常性質之未知物質。
+其部分特徵與世界樹相關現象存在關聯。
+</p>
+
+</div>
+
+
+<div class="document">
+
+<span class="tag">
+ISECR-003
+</span>
+
+<h3>
+「未命名現象」
+</h3>
+
+<p>
+分類：未分類異常
+</p>
+
+<p>
+狀態：
+<span class="status">
+觀察中
+</span>
+</p>
+
+<p>
+簡介：該項目目前僅確認存在異常現象，
+具體性質及形成原因仍在調查中。
+</p>
+
+</div>
+
+
+<div class="document">
+
+<span class="tag">
+ISECR-004
+</span>
+
+<h3>
+「███」
+</h3>
+
+<p>
+分類：受限資料
+</p>
+
+<p>
+狀態：
+<span class="status">
+權限不足
+</span>
+</p>
+
+<p>
+簡介：目前存取等級不足。
+該項目相關資料已依安全協議封鎖。
+</p>
+
+</div>
+
+
+</div>
+
+
+<div class="card">
+
+<h2>
+檔案統計
+</h2>
+
+<p>
+已登錄項目：4
+</p>
+
+<p>
+公開級項目：3
+</p>
+
+<p>
+受限項目：1
+</p>
+
+<p>
+最後資料同步：正常
+</p>
+
+</div>
+
+
+</div>
+
+</div>
+
+
+<footer>
+
+ISECR © 地球支援分部資料庫
+
+</footer>
+
+
+</body>
+
+</html>
