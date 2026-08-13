@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>研究文件 - ISECR 地球支援分部</title>
+
+<style>
+*{box-sizing:border-box;}
+
+body{
+margin:0;
+background:#121416;
+color:#ddd;
+font-family:"Microsoft JhengHei","PingFang TC",sans-serif;
+}
+
+.header{
+height:90px;
+background:#1b1e22;
+border-bottom:3px solid #8b0000;
+padding:20px 30px;
+}
+
+.header h1{margin:0;font-size:28px;color:white;}
+.header p{margin:5px 0;color:#aaa;}
+
+.layout{
+display:flex;
+min-height:calc(100vh - 90px);
+}
+
+.menu{
+width:240px;
+background:#181a1d;
+border-right:1px solid #333;
+padding:20px;
+}
+
+.menu h3{
+color:#aaa;
+font-size:14px;
+}
+
+.menu button{
+width:100%;
+background:#222;
+color:#ddd;
+border:1px solid #444;
+padding:12px;
+margin-bottom:10px;
+text-align:left;
+cursor:pointer;
+}
+
+.menu button:hover{
+background:#333;
+border-color:#8b0000;
+}
+
+.main{
+flex:1;
+padding:30px;
+}
+
+.card{
+background:#1b1e22;
+border:1px solid #333;
+padding:25px;
+margin-bottom:20px;
+box-shadow:0 2px 5px #000;
+}
+
+.card h2{
+margin-top:0;
+color:white;
+border-bottom:1px solid #444;
+padding-bottom:10px;
+}
+
+.document{
+background:#161719;
+border:1px solid #444;
+padding:18px;
+margin-top:15px;
+}
+
+.document h3{
+color:white;
+}
+
+.tag{
+display:inline-block;
+background:#8b0000;
+color:white;
+padding:3px 8px;
+font-size:12px;
+}
+
+footer{
+padding:15px;
+text-align:center;
+color:#666;
+font-size:13px;
+}
+
+@media(max-width:700px){
+.layout{display:block;}
+.menu{width:100%;}
+.main{padding:15px;}
+}
+</style>
+</head>
+
+<body>
+
+<div class="header">
+<h1>ISECR 地球支援分部</h1>
+<p>Earth Support Division · 研究文件</p>
+</div>
+
+<div class="layout">
+
+<div class="menu">
+
+<h3>資料分類</h3>
+
+<button onclick="location.href='index.html'">首頁</button>
+<button onclick="location.href='1.html'">異常項目檔案</button>
+<button onclick="location.href='2.html'">任務報告</button>
+<button onclick="location.href='3.html'">設施資料</button>
+<button onclick="location.href='4.html'">人員資料</button>
+<button onclick="location.href='5.html'">研究文件</button>
+
+<h3>系統</h3>
+
+<button onclick="location.href='6.html'">登入驗證</button>
+<button onclick="location.href='7.html'">權限管理</button>
+
+</div>
+
+<div class="main">
+
+<div class="card">
+
+<h2>研究文件資料庫</h2>
+
+<p>
+本區域收錄已解密之研究報告與技術文件。
+</p>
+
+<div class="document">
+
+<span class="tag">研究-001</span>
+
+<h3>現實穩定性初步研究</h3>
+
+<p>研究領域：現實結構</p>
+
+<p>研究狀態：進行中</p>
+
+<p>
+本文件探討地球環境下現實穩定性異常之基本特徵。
+</p>
+
+</div>
+
+<div class="document">
+
+<span class="tag">研究-002</span>
+
+<h3>世界樹相關異常研究</h3>
+
+<p>研究領域：超自然現象</p>
+
+<p>研究狀態：進行中</p>
+
+<p>
+針對世界樹殘片及其相關異常現象進行分析。
+</p>
+
+</div>
+
+<div class="document">
+
+<span class="tag">研究-003</span>
+
+<h3>███研究計畫</h3>
+
+<p>研究領域：資料受限</p>
+
+<p>研究狀態：封鎖</p>
+
+<p>
+目前存取等級不足。
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<footer>
+ISECR © 地球支援分部資料庫
+</footer>
+
+</body>
+</html>
