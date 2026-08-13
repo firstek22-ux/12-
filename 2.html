@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>任務報告 - ISECR 地球支援分部</title>
+
+<style>
+*{box-sizing:border-box;}
+
+body{
+margin:0;
+background:#121416;
+color:#ddd;
+font-family:"Microsoft JhengHei","PingFang TC",sans-serif;
+}
+
+.header{
+height:90px;
+background:#1b1e22;
+border-bottom:3px solid #8b0000;
+padding:20px 30px;
+}
+
+.header h1{margin:0;font-size:28px;color:white;}
+.header p{margin:5px 0;color:#aaa;}
+
+.layout{
+display:flex;
+min-height:calc(100vh - 90px);
+}
+
+.menu{
+width:240px;
+background:#181a1d;
+border-right:1px solid #333;
+padding:20px;
+}
+
+.menu h3{
+color:#aaa;
+font-size:14px;
+}
+
+.menu button{
+width:100%;
+background:#222;
+color:#ddd;
+border:1px solid #444;
+padding:12px;
+margin-bottom:10px;
+text-align:left;
+cursor:pointer;
+}
+
+.menu button:hover{
+background:#333;
+border-color:#8b0000;
+}
+
+.main{
+flex:1;
+padding:30px;
+}
+
+.card{
+background:#1b1e22;
+border:1px solid #333;
+padding:25px;
+margin-bottom:20px;
+box-shadow:0 2px 5px #000;
+}
+
+.card h2{
+margin-top:0;
+color:white;
+border-bottom:1px solid #444;
+padding-bottom:10px;
+}
+
+.report{
+background:#161719;
+border:1px solid #444;
+padding:18px;
+margin-top:15px;
+}
+
+.report h3{
+color:white;
+margin-top:10px;
+}
+
+.tag{
+display:inline-block;
+background:#8b0000;
+color:white;
+padding:3px 8px;
+font-size:12px;
+}
+
+.status{
+color:#ff5555;
+}
+
+footer{
+padding:15px;
+text-align:center;
+color:#666;
+font-size:13px;
+}
+
+@media(max-width:700px){
+.layout{display:block;}
+.menu{width:100%;}
+.main{padding:15px;}
+}
+</style>
+</head>
+
+<body>
+
+<div class="header">
+<h1>ISECR 地球支援分部</h1>
+<p>Earth Support Division · 任務報告</p>
+</div>
+
+<div class="layout">
+
+<div class="menu">
+
+<h3>資料分類</h3>
+
+<button onclick="location.href='index.html'">首頁</button>
+<button onclick="location.href='1.html'">異常項目檔案</button>
+<button onclick="location.href='2.html'">任務報告</button>
+<button onclick="location.href='3.html'">設施資料</button>
+<button onclick="location.href='4.html'">人員資料</button>
+<button onclick="location.href='5.html'">研究文件</button>
+
+<h3>系統</h3>
+
+<button onclick="location.href='6.html'">登入驗證</button>
+<button onclick="location.href='7.html'">權限管理</button>
+
+</div>
+
+<div class="main">
+
+<div class="card">
+
+<h2>任務報告資料庫</h2>
+
+<p>本區域收錄 ISECR 地球支援分部已解密之任務報告。</p>
+
+<div class="report">
+
+<span class="tag">ESD-M01</span>
+
+<h3>「紅日」觀測任務</h3>
+
+<p>任務類型：異常現象調查</p>
+
+<p>執行單位：ESD 第一調查組</p>
+
+<p>狀態：<span class="status">已完成</span></p>
+
+<p>
+任務目的：確認指定區域內現實穩定度異常，
+並記錄「紅日」現象相關資料。
+</p>
+
+</div>
+
+<div class="report">
+
+<span class="tag">ESD-M02</span>
+
+<h3>世界樹殘片回收行動</h3>
+
+<p>任務類型：異常物品回收</p>
+
+<p>執行單位：ESD 特別作業組</p>
+
+<p>狀態：<span class="status">研究中</span></p>
+
+<p>
+任務目的：回收指定異常物質並移交研究設施。
+</p>
+
+</div>
+
+<div class="report">
+
+<span class="tag">ESD-M03</span>
+
+<h3>██████區域調查</h3>
+
+<p>任務類型：區域調查</p>
+
+<p>執行單位：資料受限</p>
+
+<p>狀態：<span class="status">資料封鎖</span></p>
+
+<p>
+目前存取等級不足，無法顯示完整任務內容。
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<footer>
+ISECR © 地球支援分部資料庫
+</footer>
+
+</body>
+</html>
